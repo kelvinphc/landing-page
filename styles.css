@@ -1,0 +1,47 @@
+body {
+    font-family: Roboto;
+}
+
+.section-1 {
+    background-color: #1F2937;
+}
+
+button {
+    color: white;
+    background-color: #3B82F6;
+    border-radius: 5px;
+}
+
+.image {
+    color: white;
+    background-color: grey
+}
+
+.section-2 {
+    background-color: white;
+}
+
+.illustration {
+    border-radius: 25px;
+    border: 2px solid #3B82F6;
+    height: 200px;
+    width: 200px;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+}
+
+.section-4 {
+    background-color: white;
+}
+
+.container-4 {
+    color: white;
+    background-color: #3B82F6;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+}
