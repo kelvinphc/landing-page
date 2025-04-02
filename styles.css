@@ -110,6 +110,31 @@ button {
 
 .section-3 {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 9px;
+}
+
+.quote {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: light;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    color:#1F2937;
+    font-weight: 900;
+    text-align: right;
 }
 
 .section-4 {
