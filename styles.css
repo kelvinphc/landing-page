@@ -11,13 +11,12 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0px 200px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 18px;
+    margin: 18px 18px 0px;
 }
 
 .logo {
@@ -33,16 +32,19 @@ ul {
     gap: 18px;
 }
 
-a, .text-1, .text-4 {
+a, .text-1, .text-4, p {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    margin: 0;
 }
 
 .container-1 {
     display: flex;
     padding: 100px 0px;
     gap: 36px;
+    width: 50%;
+    align-self: center;
 }
 
 .sub-container-1 {
@@ -64,7 +66,6 @@ button {
     background-color: #3B82F6;
     border-radius: 5px;
     width: 125px;
-    height: 40px;
     padding: 9px;
 }
 
@@ -80,24 +81,29 @@ button {
 .section-2 {
     background-color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title-2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    padding: 36px 0px;
+    padding: 29px 0px;
 }
 
 .container-2 {
     display: flex;
     justify-content: center;
-    gap: 36px;
-    padding: 0px 200px 100px;
+    gap: 50px;
+    padding-bottom: 100px;
+    width: 70%;
+    flex-wrap: wrap;
 }
 
 .info {
-    max-width: 400px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +112,7 @@ button {
 
 .illustration {
     border-radius: 25px;
-    border: 2px solid #3B82F6;
+    border: 5px solid #3B82F6;
     height: 200px;
     width: 200px;
 }
@@ -158,11 +164,17 @@ button {
     gap: 36px;
     padding: 50px 100px;
     border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.sub-container-4 {
+    min-width: 200px;
 }
 
 .header-4 {
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 9px;
 }
 
 .sign-up-4 {
@@ -172,4 +184,8 @@ button {
 .footer {
     color: white;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 39.5px 0px;
 }
